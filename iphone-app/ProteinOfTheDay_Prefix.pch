@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'ProteinOfTheDay' target in the 'ProteinOfTheDay' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#import "PDConstants.h"
+	#import "PDProtein.h"
+#endif
+
+#ifdef DEBUG
+// We make it a warning because when unit testing it's nice to see the logs in the list view instead of having to scroll through all the compiler output
+#define PCLog(...) printf("%s: %s\n", [[NSString stringWithFormat:@"%s:%u", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__] UTF8String], [[NSString stringWithFormat:__VA_ARGS__] UTF8String])
+#else
+# define PCLog(...) 
+#endif

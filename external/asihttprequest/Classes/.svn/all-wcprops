@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/558/whatgas/trunk/external/ASIHTTPRequest/Classes
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/558/whatgas/trunk/external/ASIHTTPRequest/Classes/ASIHTTPRequest.m
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASINetworkQueue.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/501/whatgas/trunk/external/ASIHTTPRequest/Classes/ASIInputStream.m
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/494/whatgas/trunk/external/ASIHTTPRequest/Classes/ASINetworkQueue.m
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASIFormDataRequest.h
+END
+ASINSStringAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASINSStringAdditions.h
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASIHTTPRequest.h
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASIFormDataRequest.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASIInputStream.h
+END
+ASINSStringAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/444/whatgas/trunk/external/ASIHTTPRequest/Classes/ASINSStringAdditions.m
+END
