@@ -201,6 +201,11 @@ into the cell, powered by ATP."],nil];
 	
 	NSLog(@"Search string entered:%@", searchText);
 	
+	if (searchText.length < PDKeywordMinLength) {
+		NSLog(@"Search text shorter than %d", PDKeywordMinLength);
+		return;
+	}
+	
 	[[RCSBProteinDatabank databank] searchByKeyword: searchText];
 	
     /*
@@ -209,10 +214,14 @@ into the cell, powered by ATP."],nil];
     
     [self.filteredListContent removeAllObjects]; // First clear the filtered array.
     
+	
+	
     /*
      Search the main list for products whose type matches the scope (if selected) and whose name matches searchText; add items that match to the filtered array.
      */
-    for (NSString *str in self.listContent)
+	
+	/*
+    for (PDProtein *protein in self.listContent)
     {
         if ([scope isEqualToString:@"All"])
         {
@@ -222,7 +231,7 @@ into the cell, powered by ATP."],nil];
                 [self.filteredListContent addObject:str];
             }
         }
-    }
+    }*/
 }
 
 

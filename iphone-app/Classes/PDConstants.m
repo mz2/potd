@@ -10,3 +10,4 @@
 
 const NSString *PDUserAgentString = @"pearcomp.com_protein-of-the-day";
 const NSString *PDVersionString = @"0.1";
+const NSString *PDContentTypeURLEncodedForm = @"application/x-www-form-urlencoded";

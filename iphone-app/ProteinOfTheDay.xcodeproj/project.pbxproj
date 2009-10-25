@@ -49,6 +49,9 @@
 		5F1E1D751093304900A73A82 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1E1D741093304900A73A82 /* libz.dylib */; };
 		5F1E1D771093305800A73A82 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1E1D761093305800A73A82 /* libxml2.2.dylib */; };
 		5F1E1D8A109330F500A73A82 /* RCSBProteinDatabank.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E1D89109330F500A73A82 /* RCSBProteinDatabank.m */; };
+		5F1E1EF31094871B00A73A82 /* PDStructureDescriptionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E1EF21094871B00A73A82 /* PDStructureDescriptionParser.m */; };
+		5F1E1EFE1094898200A73A82 /* PDPolymer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E1EFD1094898200A73A82 /* PDPolymer.m */; };
+		5F1E1F911094BC4F00A73A82 /* PDChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E1F901094BC4F00A73A82 /* PDChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,8 +115,14 @@
 		5F1E1D4E10932FFE00A73A82 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		5F1E1D741093304900A73A82 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		5F1E1D761093305800A73A82 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		5F1E1D88109330F500A73A82 /* RCSBProteinDatabank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSBProteinDatabank.h; sourceTree = "<group>"; };
-		5F1E1D89109330F500A73A82 /* RCSBProteinDatabank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSBProteinDatabank.m; sourceTree = "<group>"; };
+		5F1E1D88109330F500A73A82 /* RCSBProteinDatabank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCSBProteinDatabank.h; path = Classes/RCSBProteinDatabank.h; sourceTree = "<group>"; };
+		5F1E1D89109330F500A73A82 /* RCSBProteinDatabank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCSBProteinDatabank.m; path = Classes/RCSBProteinDatabank.m; sourceTree = "<group>"; };
+		5F1E1EF11094871B00A73A82 /* PDStructureDescriptionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDStructureDescriptionParser.h; path = Classes/PDStructureDescriptionParser.h; sourceTree = "<group>"; };
+		5F1E1EF21094871B00A73A82 /* PDStructureDescriptionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDStructureDescriptionParser.m; path = Classes/PDStructureDescriptionParser.m; sourceTree = "<group>"; };
+		5F1E1EFC1094898200A73A82 /* PDPolymer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPolymer.h; sourceTree = "<group>"; };
+		5F1E1EFD1094898200A73A82 /* PDPolymer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPolymer.m; sourceTree = "<group>"; };
+		5F1E1F8F1094BC4F00A73A82 /* PDChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDChain.h; sourceTree = "<group>"; };
+		5F1E1F901094BC4F00A73A82 /* PDChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDChain.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ProteinOfTheDay-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ProteinOfTheDay-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -291,6 +300,10 @@
 			children = (
 				5F1E1B2B109312D000A73A82 /* PDProtein.h */,
 				5F1E1B2C109312D000A73A82 /* PDProtein.m */,
+				5F1E1EFC1094898200A73A82 /* PDPolymer.h */,
+				5F1E1EFD1094898200A73A82 /* PDPolymer.m */,
+				5F1E1F8F1094BC4F00A73A82 /* PDChain.h */,
+				5F1E1F901094BC4F00A73A82 /* PDChain.m */,
 			);
 			name = Protein;
 			sourceTree = "<group>";
@@ -363,6 +376,8 @@
 			children = (
 				5F1E1D88109330F500A73A82 /* RCSBProteinDatabank.h */,
 				5F1E1D89109330F500A73A82 /* RCSBProteinDatabank.m */,
+				5F1E1EF11094871B00A73A82 /* PDStructureDescriptionParser.h */,
+				5F1E1EF21094871B00A73A82 /* PDStructureDescriptionParser.m */,
 			);
 			name = "RCSB Web Service";
 			sourceTree = "<group>";
@@ -452,6 +467,9 @@
 				5F1E1CEF10932E9C00A73A82 /* RegexKitLite.m in Sources */,
 				5F1E1D3A10932F8700A73A82 /* Reachability.m in Sources */,
 				5F1E1D8A109330F500A73A82 /* RCSBProteinDatabank.m in Sources */,
+				5F1E1EF31094871B00A73A82 /* PDStructureDescriptionParser.m in Sources */,
+				5F1E1EFE1094898200A73A82 /* PDPolymer.m in Sources */,
+				5F1E1F911094BC4F00A73A82 /* PDChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

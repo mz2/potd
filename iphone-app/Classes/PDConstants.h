@@ -10,3 +10,6 @@
 
 const extern NSString *PDUserAgentString;
 const extern NSString *PDVersionString;
+const extern NSString *PDContentTypeURLEncodedForm;
+
+const static NSInteger PDKeywordMinLength = 4;

@@ -15,6 +15,12 @@
 	NSString *_desc;
 	UIImage *_thumbnail;
 	UIImage *_image;
+	
+	NSMutableArray *_polymers;
+	
+	@protected
+	NSString *_downloadedImagePath;
+	NSString *_downloadedThumbnailPath;
 }
 
 @property(nonatomic,copy)NSString *name;
@@ -22,6 +28,7 @@
 @property(nonatomic,copy)NSString *desc;
 @property(nonatomic,retain)UIImage *thumbnail;
 @property(nonatomic,retain)UIImage *image;
+@property(nonatomic,retain)NSMutableArray *polymers;
 
 - (id)initWithName:(NSString*)aName pdbID:(NSString*)aPdbID desc:(NSString*)aDesc;
 + (id)proteinWithName:(NSString*)aName pdbID:(NSString*)aPdbID desc:(NSString*)aDesc;

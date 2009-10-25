@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol RCSBProteinDatabankDelegate
+-(NSArray*) didFinishSearchByKeyword:(NSString*) keyword receivedEntries:(NSArray*)pdbEntries;
+-(NSArray*) didFailSearchByKeyword:(NSArray*)keyword error:(NSError*) error;
+
+@end
+
 
 @interface RCSBProteinDatabank : NSObject {
 	NSString *_hostname;
@@ -17,6 +23,7 @@
 @property (copy) NSString *hostname;
 
 -(NSArray*) searchByKeyword:(NSString*)keyword;
+-(PDProtein*) entryByID:(NSString*)pdbID;
 
 +(RCSBProteinDatabank*) databank;
 

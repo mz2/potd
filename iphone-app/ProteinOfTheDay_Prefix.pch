@@ -8,6 +8,8 @@
 
 	#import "PDConstants.h"
 	#import "PDProtein.h"
+	#import "PDPolymer.h"
+	#import "PDChain.h"
 #endif
 
 #ifdef DEBUG
